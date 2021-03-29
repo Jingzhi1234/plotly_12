@@ -131,7 +131,7 @@ d3.json("data/samples.json").then((importedData) => {
 	// Call updateBar() when a change takes place to the DOM
 	d3.selectAll("#selDataset").on("change", updatePlot);
 
-	// 2. Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
+	// Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
 	// This function is called when a dropdown menu item is selected
 	function updatePlot() {
 
